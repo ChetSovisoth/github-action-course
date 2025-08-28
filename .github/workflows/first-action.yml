@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: print greeting
         run: echo "Hello World!"
+      - name: multi-line
+        run: |
+          echo "Tesing"
+          echo "Multi-line"
       - name: print goodbye
         run: echo "Done, Bye!"
